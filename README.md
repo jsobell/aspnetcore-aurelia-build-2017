@@ -42,6 +42,7 @@ Since this demo combines both .NET and Aurelia, you will need to install the dep
 
 * `dotnet restore` - This restores the .NET packages for the ASP.NET part of the application.
 * `npm install` - This restores the JavaScript packages that comprise Aurelia along with the related frontend build and development tooling, such as Webpack and TypeScript.
+* `webpack --config webpack.config.vendor.js` - This repackages all of your vendor dependencies, and only needs to be called if you change the vendor packages or update components
 
 ### Configuring Your Environment
 
